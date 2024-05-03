@@ -13,12 +13,12 @@ Vehicle counting can be used for analyzing traffic patterns, which can be applie
 
 ## Methods
 1. Frame differencing <br>
-   Compare consecutive frames in a video to detect changes in pixel values. This is used for motion detection. 
+   - Compare consecutive frames in a video to detect changes in pixel values. This is used for motion detection. 
 2. Image thresholding
-   Convert each frame into a binary image. Each pixel is classified as either foreground (white) or background (black) based on their intensity and color values.
+   - Convert each frame into a binary image. Each pixel is classified as either foreground (white) or background (black) based on their intensity and color values.
 3. Contour finding
-   Identifies and extracts the boundaries of objects of interest in an image. These boundaries are represented as continuous curves or outlines that trace the edges of objects in an image. This is used for object recognition and shape analysis.
+   - Identifies and extracts the boundaries of objects of interest in an image. These boundaries are represented as continuous curves or outlines that trace the edges of objects in an image. This is used for object recognition and shape analysis.
 4. Image dilation
-   Expand the boundaries of objects in the binary images. This thickens regions of interest, making it easier to detect and analyze the vehicles.
+   - Expand the boundaries of objects in the binary images. This thickens regions of interest, making it easier to detect and analyze the vehicles.
 5. Vehicle counting
-   Count the number of vehicles based on certain criteria (size, shape, motion patterns, etc.)
+   - Count the number of vehicles based on certain criteria (size, shape, motion patterns, etc.)
