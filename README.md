@@ -8,8 +8,7 @@ Vehicle counting can be used for analyzing traffic patterns, which can be applie
 
 ## Data source
   * Title: An autonomous driving dataset <br>
-  * [Waymo Open Dataset](https://www.waymo.com/open) <br>
-  * Year: 2019
+  * [Waymo Open Dataset](https://www.waymo.com/open) (collected in 2019) <br>
 
 ## Methods
 1. Frame differencing <br>
