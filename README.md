@@ -1,7 +1,7 @@
 # CV_vehicle_counter
 
 ## Description
-Count the number of vehicles from video or an image.
+Count the number of vehicles from a video or an image. (more infos later)
 
 ## Motivation
 Vehicle counting can be used for analyzing traffic patterns, which can be applied to studying traffic management, transportation metrics, and the environmental impact of vehicles. It can also be used to correctly identify other cars in autonomous driving cars. 
