@@ -1,4 +1,4 @@
-# CV_vehicle_counter
+# CV_vehicle_counter :car:
 
 ## Description
 Count the number of vehicles from a video or an image. (more infos later)
