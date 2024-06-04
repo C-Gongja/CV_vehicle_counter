@@ -53,7 +53,7 @@ We compared the performance of YOLOv3 to other YOLO models, such as YOLOv2 and Y
 
 This repository contains the configuration files and pre-trained weights for YOLOv2, YOLOv3, and YOLOv4 vehicle detection models.\
 `latest.ipynb` is the current file with the experimental results on the report.\
-the test example (`test_example.ipynb`) and the experimental results (`vehicle_detection.ipynb`)
+The test example (`test_example.ipynb`) and the experimental results (`vehicle_detection.ipynb`)
 
 #### YOLOv2
 
