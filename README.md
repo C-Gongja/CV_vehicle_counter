@@ -85,6 +85,7 @@ This repository contains the configuration files and pre-trained weights for YOL
 
 ### **Model Usage:**
    - Once you have downloaded both the configuration file and pre-trained weights for each YOLO version, you can use them with the Darknet framework for vehicle detection tasks.
+   - You can save yolos models in a single directory.
 
 
 
