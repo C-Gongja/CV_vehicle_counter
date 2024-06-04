@@ -49,7 +49,42 @@ Initially, we chose to use YOLOv3. The YOLOv3 object detection model runs a deep
 
 We compared the performance of YOLOv3 to other YOLO models, such as YOLOv2 and YOLOv4. From version two to four, improvements to object detection were made in both speed and accuracy through various machine learning techniques and changes in architecture. Since these are pretrained models, we combined all the images into one directory and tested on that.
 
-### How to run Yolo
+### YOLO Vehicle Detection Models
+
+This repository contains the configuration files and pre-trained weights for YOLOv2, YOLOv3, and YOLOv4 vehicle detection models.
+
+#### YOLOv2
+
+1. **Download YOLOv2 Configuration File:**
+   - Navigate to the [cfg directory](https://github.com/pjreddie/darknet/tree/master/cfg) of the Darknet repository.
+   - Download the [`yolov2.cfg`](https://github.com/pjreddie/darknet/blob/master/cfg/yolov2.cfg) file.
+
+2. **Download YOLOv2 Pre-trained Weights:**
+   - Look for the pre-trained weights file `yolov2.weights`.
+   - Download the [`yolov2.weights`](https://github.com/pjreddie/darknet/blob/master/yolov2.weights) file.
+
+#### YOLOv3
+
+1. **Download YOLOv3 Configuration File:**
+   - Navigate to the [cfg directory](https://github.com/pjreddie/darknet/tree/master/cfg) of the Darknet repository.
+   - Download the [`yolov3.cfg`](https://github.com/pjreddie/darknet/blob/master/cfg/yolov3.cfg) file.
+
+2. **Download YOLOv3 Pre-trained Weights:**
+   - Look for the pre-trained weights file `yolov3.weights`.
+   - Download the [`yolov3.weights`](https://github.com/pjreddie/darknet/blob/master/yolov3.weights) file.
+
+#### YOLOv4
+
+1. **Download YOLOv4 Configuration File:**
+   - Navigate to the [cfg directory](https://github.com/AlexeyAB/darknet/tree/master/cfg) of the AlexeyAB repository.
+   - Download the [`yolov4.cfg`](https://github.com/AlexeyAB/darknet/blob/master/cfg/yolov4.cfg) file.
+
+2. **Download YOLOv4 Pre-trained Weights:**
+   - Look for the pre-trained weights file `yolov4.weights`.
+   - Download the [`yolov4.weights`](https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights) file.
+
+3. **Model Usage:**
+   - Once you have downloaded both the configuration file and pre-trained weights for each YOLO version, you can use them with the Darknet framework for vehicle detection tasks.
 
 
 
