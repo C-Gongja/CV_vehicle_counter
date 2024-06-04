@@ -49,18 +49,7 @@ Initially, we chose to use YOLOv3. The YOLOv3 object detection model runs a deep
 
 We compared the performance of YOLOv3 to other YOLO models, such as YOLOv2 and YOLOv4. From version two to four, improvements to object detection were made in both speed and accuracy through various machine learning techniques and changes in architecture. Since these are pretrained models, we combined all the images into one directory and tested on that.
 
-### Experimental Results
+### How to run Yolo
 
-| Ground Truth or YOLO model | Detection |Label Instances | Accuracy | Precision, Recall, and F1-Score |
-|----------------------------|-----------|---------------------------|----------|--------------------------------|
-| **Ground Truth**           | ![](Report/image1.png)| 6 cars, 0 buses, 2 trucks | N/A      | N/A                            |
-| **YOLO v2**                | ![](Report/image2.png)| 1 car, 0 buses, 0 trucks  | 0% for car, 100% for buses, 0% for trucks | Precision = <br>Recall = <br>F1-Score = |
-| **YOLO v3**                | ![](Report/image3.png)| 10 cars, 0 buses, 3 trucks | 0% for car, 100% for buses, 0% for trucks | Precision = <br>Recall = <br>F1-Score = |
-| **YOLO v4**                | ![](Report/image4.png)| 12 cars, 0 buses, 3 trucks | 0% for car, 100% for buses, 0% for trucks | Precision = <br>Recall = <br>F1-Score = |
 
-**Table 1: Comparison of YOLO Models**
-
----
-
-Ensure to replace the image paths with the actual paths of your images before using this README.
 
