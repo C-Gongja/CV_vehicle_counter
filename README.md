@@ -23,14 +23,14 @@ We initially attempted to implement vehicle detection using techniques purely in
 - **Process:** Gray → Gaussian blur (remove noises) → Get edges (Canny Edge) → Find contour
 - **Description:** We used the Canny Edge detection algorithm to identify the boundaries of an image. After detecting edges, we used a contour detector to find continuous edges that form shapes, which might be vehicles. Vehicle detection using edge detection performed poorly because of the complexity of vehicle shapes, ambiguity in edge formation, and inadequate contour formation. The edge detection algorithm struggles to accurately delineate vehicle boundaries, which leads to inaccurate contours.
 
-![Canny Edge](Report/edge_detection.png) <!-- Ensure the image path is correct or provide the actual path -->
+![Canny Edge](Report/edge_detection.png)
 
 #### Background Subtraction
 
 - **Process:** Gray → Gaussian blur (remove noises) → Threshold to remove shadows → Apply some morphological operations to ensure a good mask (getStructuringElement, erode, dilate) → Find contour
 - **Description:** Background subtraction can be limited in its effectiveness for vehicle detection in images. One major challenge arises from the need for a consistent and accurate background model. Background subtraction techniques rely on the assumption that the scene’s background remains relatively static over time. However, in real-world scenarios, backgrounds can vary due to changes in lighting conditions, moving objects, or environmental factors. Analyzing a single image lacks the temporal context necessary for accurate background modeling. Without prior knowledge of the background or a reference image captured from the same angle without any vehicles present, background subtraction may yield inaccurate results.
 
-![Background Subtraction](Report/background_detection.png) <!-- Ensure the image path is correct or provide the actual path -->
+![Background Subtraction](Report/background_subtraction.png) 
 
 #### Summary
 
@@ -51,12 +51,12 @@ We compared the performance of YOLOv3 to other YOLO models, such as YOLOv2 and Y
 
 ### Experimental Results
 
-| Ground Truth or YOLO model | Detection Label Instances | Accuracy | Precision, Recall, and F1-Score |
-|----------------------------|---------------------------|----------|--------------------------------|
-| **Ground Truth**           | 6 cars, 0 buses, 2 trucks | N/A      | N/A                            |
-| **YOLO v2**                | 1 car, 0 buses, 0 trucks  | 0% for car, 100% for buses, 0% for trucks | Precision = <br>Recall = <br>F1-Score = |
-| **YOLO v3**                | 10 cars, 0 buses, 3 trucks | 0% for car, 100% for buses, 0% for trucks | Precision = <br>Recall = <br>F1-Score = |
-| **YOLO v4**                | 12 cars, 0 buses, 3 trucks | 0% for car, 100% for buses, 0% for trucks | Precision = <br>Recall = <br>F1-Score = |
+| Ground Truth or YOLO model | Detection |Label Instances | Accuracy | Precision, Recall, and F1-Score |
+|----------------------------|-----------|---------------------------|----------|--------------------------------|
+| **Ground Truth**           | ![](Report/image1.png)| 6 cars, 0 buses, 2 trucks | N/A      | N/A                            |
+| **YOLO v2**                | ![](Report/image2.png)| 1 car, 0 buses, 0 trucks  | 0% for car, 100% for buses, 0% for trucks | Precision = <br>Recall = <br>F1-Score = |
+| **YOLO v3**                | ![](Report/image3.png)| 10 cars, 0 buses, 3 trucks | 0% for car, 100% for buses, 0% for trucks | Precision = <br>Recall = <br>F1-Score = |
+| **YOLO v4**                | ![](Report/image4.png)| 12 cars, 0 buses, 3 trucks | 0% for car, 100% for buses, 0% for trucks | Precision = <br>Recall = <br>F1-Score = |
 
 **Table 1: Comparison of YOLO Models**
 
