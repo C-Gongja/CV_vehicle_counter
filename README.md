@@ -16,7 +16,7 @@ Our dataset contains images of highways with labels of motorcycles, Sedans, SUVs
 
 ### Computer Vision Techniques
 
-We initially attempted to implement vehicle detection using techniques purely in computer vision. Many of these algorithms have limitations and require specific conditions to work correctly. Among them, we tried edge detection and background subtraction algorithms.
+We initially attempted to implement vehicle detection using techniques purely in computer vision. Many of these algorithms have limitations and require specific conditions to work correctly. Among them, we tried edge detection and background subtraction algorithms. It is written on `CV_car_detection.ipynb`
 
 #### Edge Detection
 
