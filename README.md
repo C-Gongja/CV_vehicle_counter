@@ -14,7 +14,7 @@ counting, offering critical insights for transportation planning and traffic man
 
 Our dataset contains images of highways with labels of motorcycles, Sedans, SUVs, trucks, vans, and pickups. In our vehicle detection algorithms, we ignored all motorcycles and summed up the instances of Sedans, SUVs, vans, and pickups to be the number of cars.
 
-### Computer Vision Techniques
+### Pure Computer Vision Techniques
 
 We initially attempted to implement vehicle detection using techniques purely in computer vision. Many of these algorithms have limitations and require specific conditions to work correctly. Among them, we tried edge detection and background subtraction algorithms. It is written on `CV_car_detection.ipynb`
 
